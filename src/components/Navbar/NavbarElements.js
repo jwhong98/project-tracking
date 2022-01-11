@@ -12,7 +12,9 @@ export const Nav = styled.nav`
   z-index: 10;
 `;
 
-export const NavToggle = styled.img``;
+export const NavToggle = styled.img`
+  cursor: pointer;
+`;
 
 export const NavLogo = styled.img`
   width: 1.75rem;

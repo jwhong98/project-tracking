@@ -11,12 +11,16 @@ import {
 
 import logo from "../../images/logo.svg";
 import toggle from "../../images/icon-hamburger.svg";
+import close from "../../images/icon-close.svg";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <Nav>
       <NavLogo src={logo} />
-      <NavToggle src={toggle} />
+      <NavToggle
+        src={!props.menu ? toggle : close}
+        onClick={props.onShowMenu}
+      />
       <NavLinks>
         <NavMenu>
           <MenuItem></MenuItem>

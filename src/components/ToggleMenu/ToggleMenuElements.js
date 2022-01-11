@@ -13,7 +13,7 @@ export const ToggleContainer = styled.div`
   width: 85%;
   position: fixed;
   top: 6rem;
-  z-index: 10;
+  z-index: 21;
   padding: 1.5rem;
   border-radius: 5px;
   text-transform: uppercase;
