@@ -8,7 +8,8 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 2rem;
   background: transparent;
-  position: relative;
+  position: absolute;
+  z-index: 10;
 `;
 
 export const NavToggle = styled.img``;
