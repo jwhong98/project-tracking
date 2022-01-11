@@ -13,7 +13,9 @@ export const Nav = styled.nav`
 
 export const NavToggle = styled.img``;
 
-export const NavLogo = styled.img``;
+export const NavLogo = styled.img`
+  width: 1.75rem;
+`;
 
 export const NavLinks = styled.div`
   display: none;

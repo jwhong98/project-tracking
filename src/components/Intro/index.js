@@ -20,7 +20,7 @@ const Intro = () => {
         </Subtitle>
         <Title>powerful insights into your team</Title>
         <Description>
-          project planning and time tracking for agile teams
+          Project planning and time tracking for agile teams
         </Description>
         <ButtonWrap>
           <IntroButton>schedule a demo</IntroButton>
