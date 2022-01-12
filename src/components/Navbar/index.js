@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Nav,
+  NavWrap,
   NavLogo,
   NavToggle,
   NavLinks,
@@ -23,11 +24,11 @@ const Navbar = (props) => {
       />
       <NavLinks>
         <NavMenu>
-          <MenuItem></MenuItem>
-          <MenuItem></MenuItem>
-          <MenuItem></MenuItem>
+          <MenuItem>product</MenuItem>
+          <MenuItem>features</MenuItem>
+          <MenuItem>pricing</MenuItem>
         </NavMenu>
-        <Login></Login>
+        <Login>login</Login>
       </NavLinks>
     </Nav>
   );

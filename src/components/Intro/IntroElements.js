@@ -3,9 +3,22 @@ import styled from "styled-components";
 export const IntroContainer = styled.section`
   width: 100%;
   padding: 2rem;
+
+  @media screen and (min-width: 640px) {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8rem;
+  }
 `;
 
-export const TextWrap = styled.div``;
+export const TextWrap = styled.div`
+  @media screen and (min-width: 640px) {
+    width: 60%;
+  }
+`;
 
 export const Subtitle = styled.p`
   font-size: 1rem;
@@ -33,6 +46,10 @@ export const Title = styled.h1`
   line-height: 1;
   margin-bottom: 1rem;
   color: hsl(230, 29%, 20%);
+
+  @media screen and (min-width: 640px) {
+    font-size: 4rem;
+  }
 `;
 
 export const Description = styled.p`

@@ -19,6 +19,12 @@ export const HeaderBackDrop = styled.div`
 export const HeaderImg = styled.img`
   width: 140%;
   z-index: 5;
-  position: absolute;
+  position: fixed;
   top: 7.5rem;
+
+  @media screen and (min-width: 640px) {
+    width: auto;
+    right: -17rem;
+    top: 15rem;
+  }
 `;
